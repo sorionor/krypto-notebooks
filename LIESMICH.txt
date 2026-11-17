@@ -1,0 +1,18 @@
+Krypto_Block2: Inhalt fuer deinen Arbeitsordner Krypto
+======================================================
+
+Kopiere den GESAMTEN Inhalt dieses Ordners in deinen Ordner "Krypto".
+Alle Befehle auf dem Aufgabenblatt gibst du in diesem Ordner ein.
+
+rsa_spielzeug.py   RSA mit winzigen Zahlen zum Nachvollziehen (absichtlich unsicher)
+rsa_angriff.py     Zerlegt n und berechnet daraus den privaten Schluessel
+zeitmessung.py     Misst, wie die Zeit zum Zerlegen mit der Schluessellaenge waechst
+hybrid.py          Echte hybride Verschluesselung (AES-256-GCM + RSA-3072-OAEP)
+
+Die ersten drei Skripte brauchen nur Python 3.8 oder neuer.
+hybrid.py braucht die Umgebung "krypto" mit dem Paket "cryptography"
+(Aufgabenblatt Block 2, Teil C, Schritte 1-4).
+
+Starten:
+  Windows:      py rsa_spielzeug.py        bzw.  krypto\Scripts\python hybrid.py
+  macOS/Linux:  python3 rsa_spielzeug.py   bzw.  krypto/bin/python hybrid.py
